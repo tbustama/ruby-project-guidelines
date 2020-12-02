@@ -5,3 +5,5 @@ gem "sinatra-activerecord"
 gem "sqlite3"
 gem "pry"
 gem "require_all"
+gem 'rake'
+gem 'activerecord', '~> 5.2.3', require: 'active_record'
