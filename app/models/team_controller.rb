@@ -7,7 +7,7 @@ class TeamController
     def add_to_database
         Team.destroy_all
         city_names = {
-            "ARI"=> "Arizona",
+            "ARI"=> "Phoenix",
             "ATL"=> "Atlanta",
             "BAL"=> "Baltimore",
             "BUF"=> "Buffalo",
