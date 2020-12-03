@@ -5,7 +5,7 @@ class CreateTeams < ActiveRecord::Migration[5.2]
       t.string :team_name
       t.integer :score
       t.integer :opponent_score
-      t.datetime :time_of_possession
+      t.string :time_of_possession
       t.integer :first_downs
       t.integer :penalties
       t.integer :fumbles
