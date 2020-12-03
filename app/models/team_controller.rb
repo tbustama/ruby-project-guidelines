@@ -5,7 +5,7 @@ class TeamController
     end
 
     def add_to_database
-        Teams.destroy_all
+        Team.destroy_all
         @team_data.each {|team_hash|
             arguments = {
                 "team_name" => team_hash["TeamName"],
@@ -21,7 +21,7 @@ class TeamController
                 "rushing_touchdowns" => team_hash["RushingTouchdowns"],
                 "sacks" => team_hash["Sacks"]
             }
-            Teams.create(arguments)
+            Team.create(arguments)
         }
     end
 
