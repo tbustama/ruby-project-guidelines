@@ -1,4 +1,4 @@
-class Teams < ActiveRecord::Base
+class Team < ActiveRecord::Base
     has_many :favorite_teams
     has_many :users, through: :favorite_teams
 

@@ -1,4 +1,4 @@
-class FavoriteTeams < ActiveRecord::Base
+class FavoriteTeam < ActiveRecord::Base
     belongs_to :team 
     belongs_to :user
 end
