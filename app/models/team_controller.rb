@@ -42,8 +42,8 @@ class TeamController
         }
         @team_data.each {|team_hash|
             arguments = {
-                "team_name" => team_hash["TeamName"],
-                "team" => city_names[team_hash["Team"]],
+                "name" => team_hash["TeamName"],
+                "city" => city_names[team_hash["Team"]],
                 "score" => team_hash["Score"],
                 "opponent_score" => team_hash["OpponentScore"],
                 "time_of_possession" => team_hash["TimeOfPossession"],

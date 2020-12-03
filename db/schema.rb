@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2020_12_02_193304) do
   end
 
   create_table "teams", force: :cascade do |t|
-    t.string "team"
-    t.string "team_name"
+    t.string "city"
+    t.string "name"
     t.integer "score"
     t.integer "opponent_score"
     t.string "time_of_possession"
