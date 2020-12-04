@@ -124,7 +124,6 @@ class Menu
             @@user.favorite_teams_cities
         else
             puts "|       PLEASE FOLLOW THE DIRECTIONS PROVIDED        |"
-            self.display_commands
         end
         self.display_commands
     end

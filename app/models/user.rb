@@ -4,8 +4,7 @@ class User < ActiveRecord::Base
 
     def users_in_my_city
         users = User.users_in_city(self.city)
-        users.delete(self)
-        users
+        users.select{|user| user != self}
     end
 
     def print_users_in_my_city
@@ -52,13 +51,13 @@ class User < ActiveRecord::Base
 
     # efficiency refactor on this method
     def fellow_fans
+        teams = self.teams
         users = User.all.find_all { |user|
             user.teams.any? { |team|
-                self.teams.include?(team)
+                teams.include?(team)
             }
         }
-        users.delete(self)
-        users
+        users.select{|user| user != self}
     end
 
     def fans_in_visiting_city(city)
