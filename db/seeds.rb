@@ -38,6 +38,20 @@ city_names = {
     User.create(name:Faker::FunnyName.two_word_name, age:rand(1..100), city:city_names[rand(1..32)], motto:Faker::Movie.quote)
 end
 
+u1 = User.create(name: "Chap Stick", age: 55, city: "Los Angeles", motto: "Go big or go home!")
+u2 = User.create(name: "Arti Fishal", age: 44, city: "Los Angeles", motto: "What time is it? GAME TIME!")
+u3 = User.create(name: "Kay Oss", age: 33, city: "Los Angeles", motto: "WIN, WIN WIN WIN WIN")
+u4 = User.creat(name: "Jim Nasium", age: 24, city: "Seattle", motto: "All day, baby. ALL DAY!")
+
+f1 = FavoriteTeam.create(user_id: 102, team_id: 12)
+f2 = FavoriteTeam.create(user_id: 103, team_id: 12)
+f3 = FavoriteTeam.create(user_id: 104, team_id: 12)
+f4 = FavoriteTeam.create(user_id: 105, team_id: 12)
+
+32.times do |i|
+    FavoriteTeam.new(user_id: rand(1..100), team_id:(i+1))
+end
+
 100.times do
     FavoriteTeam.create(user_id:rand(1..100), team_id:rand(1..32))
 end
