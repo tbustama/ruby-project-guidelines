@@ -81,7 +81,7 @@ class Team < ActiveRecord::Base
     end
 
     def self.worst_team_mottos
-        puts "Here are the worst family fans mottos (who cares):"
+        puts "Here are the worst team's fans mottos (who cares):"
         self.worst_scoring_team.users_mottos
     end
 

@@ -41,7 +41,7 @@ end
 u1 = User.create(name: "Chap Stick", age: 55, city: "Los Angeles", motto: "Go big or go home!")
 u2 = User.create(name: "Arti Fishal", age: 44, city: "Los Angeles", motto: "What time is it? GAME TIME!")
 u3 = User.create(name: "Kay Oss", age: 33, city: "Los Angeles", motto: "WIN, WIN WIN WIN WIN")
-u4 = User.creat(name: "Jim Nasium", age: 24, city: "Seattle", motto: "All day, baby. ALL DAY!")
+u4 = User.create(name: "Jim Nasium", age: 24, city: "Seattle", motto: "All day, baby. ALL DAY!")
 
 f1 = FavoriteTeam.create(user_id: 102, team_id: 12)
 f2 = FavoriteTeam.create(user_id: 103, team_id: 12)
