@@ -7,6 +7,7 @@ class Menu
         puts " ----------------------------------------------------"
         puts "| Welcome to the Fantastic Football Favorites, FFF's!|"
         puts " ----------------------------------------------------"
+        self.display_fff
         puts "| Would you like to create an account?               |"
         puts "| Enter '1' to create an account                     |"
         puts "| Enter '2' to exit                                  |"
@@ -127,4 +128,51 @@ class Menu
         end
         self.display_commands
     end
+
+    def display_fff
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF        "
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNF  og  NFNFNFNFNFNFNFNFNFNFNFNFNF"
+        puts 'NFNFNFNFNFNFNFNFNFNFNFNF  ngogoo  NFNFNFNFNFNFNFNFNFNFNFNF'
+        puts '  NFNFNFNFNFNFNFNFNFNF  tFogogogoo  NFNFNFNFNFNFNFNFNFNF'
+        puts "      NFNFNFNFNFNF    ogogogogogogog    NFNFNFNFNFNF"
+        puts '  ogoo            ogogogogogogogatogogogn             og'
+        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
+        puts '  ogogogogogogogogogogogogo  g     gogogogogogogogogogog'
+        puts "  ogogaLogogogog  ogogogo   au      ogog  ogogogogFeogog  "
+        puts "  og      aLog      ogF    og       og      ogFe      og  "
+        puts "  ogog   gogogog  ogog    tt        ogog  ogogogoh  ogog  "
+        puts "  ogogogogogogogogogog  anNu        ogogogogogogogogogog  "
+        puts "  ogogogogogogog  ogog  lF        ogogog  ogogogog  ogog  "
+        puts "  ogoo  ooaeogoo  ooog          auogogon  onogoLon  onog  "
+        puts "  ogog  toogogog  ogogu      ogogogogogog  ogogogl  ogog  "
+        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
+        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
+        puts '  ogog                                              ogog '
+        puts "  ogog  Lbbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
+        puts "  ogog  Lbbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
+        puts '  ogog     bbbb    bb    bbbb    bb    bbbb    bb   ogog'
+        puts '  ogog     bbbb          bbbb          bbbb         ogog'
+        puts '  ogog     bbbb          bbbb          bbbb         ogog'
+        puts "  ogog     bbbb  gubb    bbbb  gubb    bbbb  gubb   ogog"
+        puts "  ogog     bbbbbbbbbb    bbbbbbbbbb    bbbbbbbbbb   ogog"
+        puts "  ogog     bbbbbbbbbb    bbbbbbbbbb    bbbbbbbbbb   ogog"
+        puts "  ogog     bbbb          bbbb          bbbb         ogog"
+        puts "  ogog     bbbb          bbbb          bbbb         ogog"
+        puts "  ogog     bbbb          bbbb          bbbb         ogog"
+        puts "  ogog     bbbb          bbbb          bbbb         ogog"
+        puts "  ogog     bbbb          bbbb          bbbb         ogog"
+        puts "  nnogNn bbbbbb        bbbbbb        bbbbbb       Nnogii "
+        puts "NFnnogNn lFbbbbbb      lFbbbbbb      lFbbbbbb     NnogiiNF"
+        puts "NFNF      LogogogogogNn           LogogogogogNn       NFNF"
+        puts "NFNFNFNF      toogogogogN       onogogogognn        NFNFNF"
+        puts "NFNFNFNFNFNFNF        ogogog  ogogNn        NFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFNF  ogogogi   NFNFNFNFNFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFNF    og    NFNFNFNFNFNFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNF      NFNFNFNFNFNFNFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF"
+        puts " ----------------------------------------------------"
+    end
+
+
 end
