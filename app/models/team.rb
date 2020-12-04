@@ -10,7 +10,7 @@ class Team < ActiveRecord::Base
 
     def self.least_liked_team
         team_name = Team.all.min_by{|team| team.favorite_teams.count}
-        puts "The #{team_name.name} are the least liked team in the NFL, someone call their marketing team..."
+        puts "The #{team_name.name} are the least liked team in the NFL. Someone call their marketing team..."
         team_name
     end
 
@@ -20,7 +20,7 @@ class Team < ActiveRecord::Base
 
     def self.oldest_fans
         old_team = Team.has_fans.max_by{|team| team.fan_average_age}
-        puts "#{old_team.name} have the oldest fans with an average of #{old_team.fan_average_age} years old."
+        puts "Respect your elders! #{old_team.name} have the oldest fans with an average of #{old_team.fan_average_age} years old."
         old_team
     end
 
@@ -50,7 +50,7 @@ class Team < ActiveRecord::Base
 
     def self.most_points_allowed
         worst_team = Team.all.max_by{|team| team.opponent_score}
-        puts "The Defensive Cordinator of the #{worst_team.name} needs to be fired."
+        puts "The Defensive Coordinator of the #{worst_team.name} needs to be fired."
         worst_team
     end
 
