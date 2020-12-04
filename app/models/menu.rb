@@ -38,11 +38,11 @@ class Menu
         @@user = User.new(name: user_name, city: user_city, age: user_age, motto: user_motto)
         puts " ----------------------------------------------------"
         puts "| Thank you for creating a user now we can have fun! |"
-        puts " ----------------------------------------------------"
         self.display_commands
     end
 
     def display_commands
+        puts " ----------------------------------------------------"
         puts "| Enter a number below that represents the data      |"
         puts "| you want to know. Enter the number '0' to exit.    |"
         puts "| 0. Exit                    5. Most Popular Team    |"
@@ -59,25 +59,31 @@ class Menu
         user_command = STDIN.gets.chomp
         case user_command
         when "0" 
+            puts "|  Thank you for visiting FFF's! Please come again!  |"
+            puts " ----------------------------------------------------"
             return
         when "1"
             @@user.fellow_fans_in_my_city
         when "2"
             @@user.user_in_my_city
         when "3"
-    
+            Team.oldest_fans
         when "4"
-
+            User.oldest_user
         when "5" 
-            
+            Team.most_liked_team
         when "6"
-
+            Team.least_liked_team
         when "7"
-
+            User.youngest_user
         when "8"
-
+            Team.top_scoring_team
         when "9"
-
+            Team.most_widespread_fanbase
+        else
+            puts "|       PLEASE FOLLOW THE DIRECTIONS PROVIDED        |"
+            self.display_commands
         end
+        self.display_commands
     end
 end
