@@ -65,7 +65,7 @@ class Menu
         when "1"
             @@user.fellow_fans_in_my_city
         when "2"
-            @@user.user_in_my_city
+            @@user.users_in_my_city
         when "3"
             Team.oldest_fans
         when "4"

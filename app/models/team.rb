@@ -3,7 +3,7 @@ class Team < ActiveRecord::Base
     has_many :users, through: :favorite_teams
 
     def self.most_liked_team
-        team_name = Team.all.max_by{|team| team.favorite_teams.count}.name
+        team_name = Team.all.max_by{|team| team.favorite_teams.count}
         puts "The #{team_name.name} are the most liked team in the NFL!"
         team_name
     end
@@ -31,7 +31,7 @@ class Team < ActiveRecord::Base
     end
     
     def self.top_scoring_team
-        Team.all.max_by{|team| team.score}
+        Team.where("score": Team.maximum("score"))[0]
     end
 
     def self.puts_top_scoring
@@ -40,7 +40,7 @@ class Team < ActiveRecord::Base
     end
 
     def self.worst_scoring_team
-        Team.all.max_by{|team| team.score}
+        Team.where("score": Team.minimum("score"))[0]
     end
 
     def self.puts_worst_scoring
@@ -70,7 +70,7 @@ class Team < ActiveRecord::Base
         mottos = self.users.map{|user| user.motto}
         if mottos != []
             puts "Here are your fans mottos:"
-            mottos.each {|motto| print "#{motto} "}
+            mottos.each_with_index {|motto, i| print "#{i + 1}. #{motto} "}
         else  
             puts "You have no fans... your motto should be 'get some fans'"
         end
