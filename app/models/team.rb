@@ -50,7 +50,7 @@ class Team < ActiveRecord::Base
 
     def self.most_points_allowed
         worst_team = Team.all.max_by{|team| team.opponent_score}
-        puts "The Defensive Cordinator of the #{worst_team.name} needs to be fired."
+        puts "The Defensive Coordinator of the #{worst_team.name} needs to be fired."
         worst_team
     end
 
@@ -82,5 +82,9 @@ class Team < ActiveRecord::Base
 
     def self.worst_team_mottos
         self.worst_scoring_team.users_mottos
+    end
+
+    def user_cities
+        self.users.map{|user| user.city }.uniq
     end
 end

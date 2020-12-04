@@ -45,11 +45,15 @@ class Menu
         puts " ----------------------------------------------------"
         puts "| Enter a number below that represents the data      |"
         puts "| you want to know. Enter the number '0' to exit.    |"
-        puts "| 0. Exit                    5. Most Popular Team    |"
-        puts "| 1. Fans in my hood         6. Least Liked Team     |"
-        puts "| 2. Peeps in my hood        7. Biggest Baby Fan     |"
-        puts "| 3. Old Fart Fan            8. Biggest Scoring Team |"
-        puts "| 4. The bandwagon Fan       9. Widest Fanbase Team  |"
+        puts "| 0. Exit                    9. Widest Fanbase Team  |"
+        puts "| 1. Fans in my hood         10. Fans where visiting |"
+        puts "| 2. Peeps in my hood        11. Oldest Team Fans    |"
+        puts "| 3. The Bandwagon Fan       12. Youngest Team Fans  |"
+        puts "| 4. Old Fart Fan            13. Worst Defense Team  |"
+        puts "| 5. Most Popular Team       14. Best Offense Team   |"
+        puts "| 6. Least Liked Team        15. Best Team Mottos    |"
+        puts "| 7. Biggest Baby Fan        16. Worst Team Mottos   |"
+        puts "| 8. Top Scoring Team        17. Team Fan Cities     |"
         puts " ----------------------------------------------------"
         self.call_method
     end
@@ -65,9 +69,9 @@ class Menu
         when "1"
             @@user.fellow_fans_in_my_city
         when "2"
-            @@user.users_in_my_city
+            @@user.print_users_in_my_city
         when "3"
-            Team.oldest_fans
+            User.user_with_most_favorites
         when "4"
             User.oldest_user
         when "5" 
@@ -77,9 +81,27 @@ class Menu
         when "7"
             User.youngest_user
         when "8"
-            Team.top_scoring_team
+            Team.puts_top_scoring_team
         when "9"
             Team.most_widespread_fanbase
+        when "10"
+            puts " Please enter the city name you want to find fans in! "
+            city_name = STDIN.gets.chomp
+            @@user.fans_in_visiting_city(city_name)
+        when "11"
+            Team.oldest_fans
+        when "12"
+            Team.youngest_fans
+        when "13"
+            Team.puts_worst_scoring_team
+        when "14"
+            Team.most_points_allowed
+        when "15"
+            Team.top_team_mottos
+        when "16"
+            Team.worst_team_mottos
+        when "17"
+            @@user.favorite_teams_cities
         else
             puts "|       PLEASE FOLLOW THE DIRECTIONS PROVIDED        |"
             self.display_commands
