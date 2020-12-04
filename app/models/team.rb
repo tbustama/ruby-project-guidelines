@@ -43,7 +43,7 @@ class Team < ActiveRecord::Base
         Team.all.max_by{|team| team.score}
     end
 
-    def sef.puts_worst_scoring
+    def self.puts_worst_scoring
         worst_team = self.worst_scoring_team
         puts "The #{worst_team.name} have the worst offense in the NFL. Taking bets on who gets fired first."
     end
@@ -70,7 +70,7 @@ class Team < ActiveRecord::Base
         mottos = self.users.map{|user| user.motto}
         if mottos != []
             puts "Here are your fans mottos:"
-            mottos.each {|motto| puts motto}
+            mottos.each {|motto| print "#{motto} "}
         else  
             puts "You have no fans... your motto should be 'get some fans'"
         end
