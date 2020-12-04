@@ -69,18 +69,19 @@ class Team < ActiveRecord::Base
     def users_mottos
         mottos = self.users.map{|user| user.motto}
         if mottos != []
-            puts "Here are your fans mottos:"
-            mottos.each_with_index {|motto, i| print "#{i + 1}. #{motto} "}
+            mottos.each_with_index {|motto, i| puts "#{i + 1}. #{motto} "}
         else  
             puts "You have no fans... your motto should be 'get some fans'"
         end
     end
 
     def self.top_team_mottos
+        puts "Here are the best team's fan's mottos:"
         self.top_scoring_team.users_mottos
     end
 
     def self.worst_team_mottos
+        puts "Here are the worst family fans mottos (who cares):"
         self.worst_scoring_team.users_mottos
     end
 

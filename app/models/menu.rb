@@ -81,7 +81,7 @@ class Menu
         when "7"
             User.youngest_user
         when "8"
-            Team.puts_top_scoring_team
+            Team.puts_top_scoring
         when "9"
             Team.most_widespread_fanbase
         when "10"
@@ -93,7 +93,7 @@ class Menu
         when "12"
             Team.youngest_fans
         when "13"
-            Team.puts_worst_scoring_team
+            Team.puts_worst_scoring
         when "14"
             Team.most_points_allowed
         when "15"
