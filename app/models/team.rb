@@ -70,7 +70,7 @@ class Team < ActiveRecord::Base
         mottos = self.users.map{|user| user.motto}
         if mottos != []
             puts "Here are your fans mottos:"
-            mottos.each {|motto| print "#{motto} "}
+            mottos.each_with_index {|motto, i| print "#{i + 1}. #{motto} "}
         else  
             puts "You have no fans... your motto should be 'get some fans'"
         end
