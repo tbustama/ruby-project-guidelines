@@ -28,12 +28,12 @@ class User < ActiveRecord::Base
             puts "Sorry you're alone on this one."
         else 
             puts "You've found your people!"
-            fellow_fans.each{|fan| 
-            print fan.name
-            if fellow_fans.last != fan 
-                print ", "
-            end
-        }
+            fellow_fans.each{ |fan| 
+                print fan.name
+                if fellow_fans.last != fan 
+                    print ", "
+                end
+            }
         print "\n"
         fellow_fans
         end
@@ -50,6 +50,7 @@ class User < ActiveRecord::Base
         User.where("city": city)
     end
 
+    # efficiency refactor on this method
     def fellow_fans
         users = User.all.find_all { |user|
             user.teams.any? { |team|
