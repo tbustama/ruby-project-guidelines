@@ -31,7 +31,7 @@ class Team < ActiveRecord::Base
     end
     
     def self.top_scoring_team
-        Team.all.max_by{|team| team.score}
+        Team.where("score": Team.maximum("score"))[0]
     end
 
     def self.puts_top_scoring
@@ -40,7 +40,7 @@ class Team < ActiveRecord::Base
     end
 
     def self.worst_scoring_team
-        Team.all.max_by{|team| team.score}
+        Team.where("score": Team.minimum("score"))[0]
     end
 
     def self.puts_worst_scoring
