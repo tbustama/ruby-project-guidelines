@@ -3,7 +3,7 @@ class Team < ActiveRecord::Base
     has_many :users, through: :favorite_teams
 
     def self.most_liked_team
-        team_name = Team.all.max_by{|team| team.favorite_teams.count}.name
+        team_name = Team.all.max_by{|team| team.favorite_teams.count}
         puts "The #{team_name.name} are the most liked team in the NFL!"
         team_name
     end
