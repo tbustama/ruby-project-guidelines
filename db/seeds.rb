@@ -34,7 +34,7 @@ city_names = {
     32=> "Washington D.C."
 }
 
-100.times do
+200.times do
     User.create(name:Faker::FunnyName.two_word_name, age:rand(1..100), city:city_names[rand(1..32)], motto:Faker::Movie.quote)
 end
 

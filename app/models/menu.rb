@@ -136,21 +136,21 @@ class Menu
         puts 'NFNFNFNFNFNFNFNFNFNFNFNF  ngogoo  NFNFNFNFNFNFNFNFNFNFNFNF'
         puts '  NFNFNFNFNFNFNFNFNFNF  tFogogogoo  NFNFNFNFNFNFNFNFNFNF'
         puts "      NFNFNFNFNFNF    ogogogogogogog    NFNFNFNFNFNF"
-        puts '  ogoo            ogogogogogogogatogogogn             og'
+        puts '  ogoo            ogogogogogogogatogogog              og'
         puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
         puts '  ogogogogogogogogogogogogo  g     gogogogogogogogogogog'
         puts "  ogogaLogogogog  ogogogo   au      ogog  ogogogogFeogog  "
         puts "  og      aLog      ogF    og       og      ogFe      og  "
         puts "  ogog   gogogog  ogog    tt        ogog  ogogogoh  ogog  "
         puts "  ogogogogogogogogogog  anNu        ogogogogogogogogogog  "
-        puts "  ogogogogogogog  ogog  lF        ogogog  ogogogog  ogog  "
+        puts "  ogog  ogogogog  ogog  lF        ogogog  ogogogog  ogog  "
         puts "  ogoo  ooaeogoo  ooog          auogogon  onogoLon  onog  "
-        puts "  ogog  toogogog  ogogu      ogogogogogog  ogogogl  ogog  "
+        puts "  ogog  toogogog  ogogu      ogogogogogo  gogogogl  ogog  "
         puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
         puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
         puts '  ogog                                              ogog '
-        puts "  ogog  Lbbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
-        puts "  ogog  Lbbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
+        puts "  ogog   bbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
+        puts "  ogog   bbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
         puts '  ogog     bbbb    bb    bbbb    bb    bbbb    bb   ogog'
         puts '  ogog     bbbb          bbbb          bbbb         ogog'
         puts '  ogog     bbbb          bbbb          bbbb         ogog'
@@ -162,12 +162,12 @@ class Menu
         puts "  ogog     bbbb          bbbb          bbbb         ogog"
         puts "  ogog     bbbb          bbbb          bbbb         ogog"
         puts "  ogog     bbbb          bbbb          bbbb         ogog"
-        puts "  nnogNn bbbbbb        bbbbbb        bbbbbb       Nnogii "
-        puts "NFnnogNn lFbbbbbb      lFbbbbbb      lFbbbbbb     NnogiiNF"
-        puts "NFNF      LogogogogogNn           LogogogogogNn       NFNF"
-        puts "NFNFNFNF      toogogogogN       onogogogognn        NFNFNF"
-        puts "NFNFNFNFNFNFNF        ogogog  ogogNn        NFNFNFNFNFNFNF"
-        puts "NFNFNFNFNFNFNFNFNFNFNFNF  ogogogi   NFNFNFNFNFNFNFNFNFNFNF"
+        puts "  nnog   bbbbbb        bbbbbb        bbbbbb       Nnogii "
+        puts "NFnnog    Fbbbbbb      lFbbbbbb      lFbbbbbb     NnogiiNF"
+        puts "NFNF       ogogogogog              ogogogogog         NFNF"
+        puts "NFNFNFNF      toogogogog        onogogogognn        NFNFNF"
+        puts "NFNFNFNFNFNFNF        ogogog  ogogog        NFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFN   ogogogi   NFNFNFNFNFNFNFNFNFNFNF"
         puts "NFNFNFNFNFNFNFNFNFNFNFNF    og    NFNFNFNFNFNFNFNFNFNFNFNF"
         puts "NFNFNFNFNFNFNFNFNFNFNFNFNF      NFNFNFNFNFNFNFNFNFNFNFNFNF"
         puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF"
