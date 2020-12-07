@@ -130,47 +130,47 @@ class Menu
     end
 
     def display_fff
-        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF        "
-        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF"
-        puts "NFNFNFNFNFNFNFNFNFNFNFNFNF  og  NFNFNFNFNFNFNFNFNFNFNFNFNF"
-        puts 'NFNFNFNFNFNFNFNFNFNFNFNF  ngogoo  NFNFNFNFNFNFNFNFNFNFNFNF'
-        puts '  NFNFNFNFNFNFNFNFNFNF  tFogogogoo  NFNFNFNFNFNFNFNFNFNF'
-        puts "      NFNFNFNFNFNF    ogogogogogogog    NFNFNFNFNFNF"
-        puts '  ogoo            ogogogogogogogatogogog              og'
-        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
-        puts '  ogogogogogogogogogogogogo  g     gogogogogogogogogogog'
-        puts "  ogogaLogogogog  ogogogo   au      ogog  ogogogogFeogog  "
-        puts "  og      aLog      ogF    og       og      ogFe      og  "
-        puts "  ogog   gogogog  ogog    tt        ogog  ogogogoh  ogog  "
-        puts "  ogogogogogogogogogog  anNu        ogogogogogogogogogog  "
-        puts "  ogog  ogogogog  ogog  lF        ogogog  ogogogog  ogog  "
-        puts "  ogoo  ooaeogoo  ooog          auogogon  onogoLon  onog  "
-        puts "  ogog  toogogog  ogogu      ogogogogogo  gogogogl  ogog  "
-        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
-        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'
-        puts '  ogog                                              ogog '
-        puts "  ogog   bbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
-        puts "  ogog   bbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ogog"
-        puts '  ogog     bbbb    bb    bbbb    bb    bbbb    bb   ogog'
-        puts '  ogog     bbbb          bbbb          bbbb         ogog'
-        puts '  ogog     bbbb          bbbb          bbbb         ogog'
-        puts "  ogog     bbbb  gubb    bbbb  gubb    bbbb  gubb   ogog"
-        puts "  ogog     bbbbbbbbbb    bbbbbbbbbb    bbbbbbbbbb   ogog"
-        puts "  ogog     bbbbbbbbbb    bbbbbbbbbb    bbbbbbbbbb   ogog"
-        puts "  ogog     bbbb          bbbb          bbbb         ogog"
-        puts "  ogog     bbbb          bbbb          bbbb         ogog"
-        puts "  ogog     bbbb          bbbb          bbbb         ogog"
-        puts "  ogog     bbbb          bbbb          bbbb         ogog"
-        puts "  ogog     bbbb          bbbb          bbbb         ogog"
-        puts "  nnog   bbbbbb        bbbbbb        bbbbbb       Nnogii "
-        puts "NFnnog    Fbbbbbb      lFbbbbbb      lFbbbbbb     NnogiiNF"
-        puts "NFNF       ogogogogog              ogogogogog         NFNF"
-        puts "NFNFNFNF      toogogogog        onogogogognn        NFNFNF"
-        puts "NFNFNFNFNFNFNF        ogogog  ogogog        NFNFNFNFNFNFNF"
-        puts "NFNFNFNFNFNFNFNFNFNFNFN   ogogogi   NFNFNFNFNFNFNFNFNFNFNF"
-        puts "NFNFNFNFNFNFNFNFNFNFNFNF    og    NFNFNFNFNFNFNFNFNFNFNFNF"
-        puts "NFNFNFNFNFNFNFNFNFNFNFNFNF      NFNFNFNFNFNFNFNFNFNFNFNFNF"
-        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF"
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF        ".blue
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF".blue
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNF  og  NFNFNFNFNFNFNFNFNFNFNFNFNF".blue
+        puts 'NFNFNFNFNFNFNFNFNFNFNFNF  ngogoo  NFNFNFNFNFNFNFNFNFNFNFNF'.blue
+        puts '  NFNFNFNFNFNFNFNFNFNF  tFogogogoo  NFNFNFNFNFNFNFNFNFNF'.blue
+        puts "      NFNFNFNFNFNF    ogogogogogogog    NFNFNFNFNFNF".blue
+        puts '  og              ogogogogogogogatogogog              og'.blue
+        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'.blue
+        puts '  ogogogogogogogogogogogogo  g     gogogogogogogogogogog'.blue
+        puts "  ogogaLogogogog  ogogogo   au      ogog  ogogogogFeogog  ".blue
+        puts "  og      aLog      ogF    og       og      ogFe      og  ".blue
+        puts "  ogog   gogogog  ogog    tt        ogog  ogogogoh  ogog  ".blue
+        puts "  ogogogogogogogogogog  anNu        ogogogogogogogogogog  ".blue
+        puts "  ogog  ogogogog  ogog  lF        ogogog  ogogogog  ogog  ".blue
+        puts "  ogoo  ooaeogoo  ooog          auogogon  onogoLon  onog  ".blue
+        puts "  ogog  toogogog  ogogu      ogogogogogo  gogogogl  ogog  ".blue
+        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'.blue
+        puts '  ogogogogogogogogogogogogogogogogogogogogogogogogogogog'.blue
+        puts '  ogog                                              ogog '.blue
+        puts "  ogog".blue+ "   bbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ".red + "ogog".blue
+        puts "  ogog".blue+ "   bbbbbbbbbbbb Lbbbbbbbbbbbb Lbbbbbbbbbbbb   ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb    bb    bbbb    bb    bbbb    bb   ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb  gubb    bbbb  gubb    bbbb  gubb   ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbbbbbbbb    bbbbbbbbbb    bbbbbbbbbb   ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbbbbbbbb    bbbbbbbbbb    bbbbbbbbbb   ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  ogog".blue+ "     bbbb          bbbb          bbbb         ".red + "ogog".blue
+        puts "  nnog".blue+ "   bbbbbb        bbbbbb        bbbbbb       ".red + "  nnog".blue
+        puts "NFnnog".blue+ "   lFbbbbbb      lFbbbbbb      lFbbbbbb     ".red + "  nnogNF".blue
+        puts "NFNF       ogogogogog               ogogogogog        NFNF".blue
+        puts "NFNFNFNF      toogogogog         onogogogognn     NFNFNFNF".blue
+        puts "NFNFNFNFNFNFNF        ogogog  ogogog        NFNFNFNFNFNFNF".blue
+        puts "NFNFNFNFNFNFNFNFNFNFNFN   ogogogi   NFNFNFNFNFNFNFNFNFNFNF".blue
+        puts "NFNFNFNFNFNFNFNFNFNFNFNF    og    NFNFNFNFNFNFNFNFNFNFNFNF".blue
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNF      NFNFNFNFNFNFNFNFNFNFNFNFNF".blue
+        puts "NFNFNFNFNFNFNFNFNFNFNFNFNFNF  NFNFNFNFNFNFNFNFNFNFNFNFNFNF".blue
         puts " ----------------------------------------------------"
     end
 
