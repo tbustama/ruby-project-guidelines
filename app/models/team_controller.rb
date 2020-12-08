@@ -36,7 +36,7 @@ class TeamController
             "PIT"=> "Pittsburgh",
             "SEA"=> "Seattle",
             "SF" => "San Francisco",
-            "TB" => "Tamba Bay",
+            "TB" => "Tampa Bay",
             "TEN"=> "Nashville",
             "WAS"=> "Washington D.C."
         }
